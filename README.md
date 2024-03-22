@@ -1,0 +1,2 @@
+# Twitter_time
+Twitterでのツイート時刻表示を0.01秒単位まで細かくして書き換えるChrome拡張機能
