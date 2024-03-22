@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Twitter_time",
+    "version": "1.0",
+    "description": "正確な時間を表示させます。",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "https://twitter.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*",
+                "https://x.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
